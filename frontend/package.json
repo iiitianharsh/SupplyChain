@@ -14,9 +14,16 @@
     "react-hot-toast": "^2.1.1",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "undici": "^5.26.5",
     "web-vitals": "^1.0.1",
     "web3": "^1.6.0"
   },
+"overrides": {
+  "cheerio": {
+    "undici": "5.26.5"
+  }
+}
+,
   "scripts": {
     "start": "react-dotenv && react-scripts start",
     "build": "react-dotenv && react-scripts build",
